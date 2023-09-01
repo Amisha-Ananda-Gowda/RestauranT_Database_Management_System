@@ -10,4 +10,4 @@
 ![Screenshot of Restaurant_Database_Management_System](./images/Screenshot%202023-09-01%20124102.png)
 ![Screenshot of Restaurant_Database_Management_System](./images/Screenshot%202023-09-01%20124148.png)
 ![Screenshot of Restaurant_Database_Management_System](./images/Screenshot%202023-09-01%20124219.png)
-![Screenshot of Restaurant_Database_Management_System](./images/Screenshot%202023-09-01%20124249.png)
+![Screenshot of Restaurant_Database_Management_System](./images/
