@@ -73,7 +73,7 @@ if ($result) {
 </head>
 
 <body>
-    <div class="container-xxl bg-white p-0">
+    <div class="container-xxl bg-white p-0 align-items-center">
         <!-- Spinner Start -->
         <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
             <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
@@ -123,19 +123,22 @@ if ($result) {
         <!-- Navbar & Hero End -->
 
         <!-- Reservation Start -->
-        <div class="container-xxl py-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
-            
-                <div class="col-md-6 bg-dark d-flex align-items-center">
-                    <div class="p-5 wow fadeInUp" data-wow-delay="0.2s">
-                        <h5 class="section-title ff-secondary text-start text-primary fw-normal">Your Opinions Matter: </h5>
-                        <h1 class="text-white mb-4">Post Your Review</h1>
-                        <!-- ... the top part of your HTML remains unchanged ... -->
+        <div class="container-xxl py-5 px-0 wow fadeInUp d-flex justify-content-center align-items-center" data-wow-delay="0.1s">
+    <div class="align-items-center col-md-6 bg-dark d-flex">
+        <div class="p-5 wow fadeInUp" data-wow-delay="0.2s">
+            <h5 class="section-title ff-secondary text-start text-primary fw-normal">Your Opinions Matter: </h5>
+            <h1 class="text-white mb-4">Post Your Review</h1>
 
-                        <form action="" method="post">  
-    <div class="row g-3">
-      
-        <div class="col-md-6">
-            <div class="form-floating">
+            <form action="" method="post">  
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="userid" name="uid" placeholder="Your User ID">
+                            <label for="userid">Your User ID</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-floating">
                 <input type="text" class="form-control" id="userid" name="uid" placeholder="Your User ID">
                 <label for="userid">Your User ID</label>
             </div>
@@ -171,30 +174,16 @@ if ($result) {
     </div>
 </form>
 
-<!-- ... the rest of your HTML remains unchanged ... -->
+
 
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content rounded-0">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Youtube Video</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <!-- 16:9 aspect ratio -->
-                        <div class="ratio ratio-16x9">
-                            <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
-                                allow="autoplay"></iframe>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
+                
+         
         <!-- Reservation Start -->
     <!-- Testimonial Start -->
 <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
